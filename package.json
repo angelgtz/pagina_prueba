@@ -1,0 +1,8 @@
+{
+    "name": "pagina_prueba_git",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "SHINIGAMI",
+    "contributors": [],
+    "dependencies": {}
+}
