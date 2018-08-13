@@ -93,6 +93,19 @@
       </div>
     </div>
 
+<div class="btn-group">
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Quinto Módulo
+      </button>
+      <div class="dropdown-menu">
+        <button class="dropdown-item" id="presioname_5">Presioname 5</button>
+        <a class="dropdown-item" href="#">Otra acción</a>
+        <a class="dropdown-item" href="#">Algo más</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Lo que sigue</a>
+      </div>
+    </div>
+
     
     <!-- Fin Botones Menú -->
   </div>
@@ -115,7 +128,6 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_3">
-<<<<<<< HEAD
       <h4>Esto sera una tabla - Editada</h4>
       <table border="1px solid" >
       	<thead>
@@ -158,12 +170,6 @@
     </div>
   </div>
   <div class="col-md-4"></div>
-=======
-      <h4>Lo que sea</h4>
-      <h2>Solo otro mensaje</h2>
-    </div>
-  </div>
-  <div class="col-md-4"></div>
 </div>
 
 
@@ -175,8 +181,23 @@
     </div>
   </div>
   <div class="col-md-4"></div>
->>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
 </div>
+
+<!-- Mensaje 5 -->
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="alert alert-warning centrar oculto" id="mensaje_5">
+      <h4>Mensaje 5</h4>
+      <h2>Modulo de consultas</h2>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+<!-- Fin mensaje 5 -->
+
+
 
 <script type="text/javascript">
   $("#presioname_1").click(function(){
@@ -188,16 +209,17 @@
   });
   
   $("#presioname_4").click(function(){
-<<<<<<< HEAD
     $("#mensaje_4").show();
-=======
-    $("#mensaje_3").show();
->>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
   });
   
   $("#presioname_2").click(function(){
     $("#mensaje_2").show();
   });
+  
+    $("#presioname_5").click(function(){
+    $("#mensaje_5").show();
+  });
+  
 </script>
 
   </body>
