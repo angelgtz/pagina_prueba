@@ -46,7 +46,7 @@
         Primer módulo
       </button>
       <div class="dropdown-menu">
-        <button class="dropdown-item" id="presioname_1">Presioname</button>
+        <button class="dropdown-item" id="presioname_1">Presioname una vez</button>
         <a class="dropdown-item" href="#">Otra acción</a>
         <a class="dropdown-item" href="#">Algo más</a>
         <div class="dropdown-divider"></div>
@@ -54,6 +54,18 @@
       </div>
     </div>
 
+<div class="btn-group">
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Tercer Módulo
+      </button>
+      <div class="dropdown-menu">
+        <button class="dropdown-item" id="presioname_3">Presioname 3</button>
+        <a class="dropdown-item" href="#">Otra acción</a>
+        <a class="dropdown-item" href="#">Algo más</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Lo que sigue</a>
+      </div>
+    </div>
     
     <!-- Fin Botones Menú -->
   </div>
@@ -66,15 +78,46 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_1">
-      <h3>Mensaje desde la acción 1</h3>
+      <h3>Mensaje desde la acción 1, Se agrega una X</h3>
     </div>
   </div>
   <div class="col-md-4"></div>
 </div>
 
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="alert alert-warning centrar oculto" id="mensaje_3">
+      <h4>Esto sera una tabla</h4>
+      <table border="1px solid" >
+      	<thead>
+      	<tr>
+      	<th>Col 1</th>
+      	<th>Col 2</th>
+      	<th>Col 3</th>
+      	</tr>
+      	</thead>
+      	<tbody>
+      	<tr>
+      	<td>ASD</td>
+			<td>HGSD</td>
+			<td>FDJREU</td>
+      	</tr>
+      	</tbody>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+
 <script type="text/javascript">
   $("#presioname_1").click(function(){
     $("#mensaje_1").show();
+  });
+  
+  $("#presioname_3").click(function(){
+    $("#mensaje_3").show();
   });
 </script>
 
