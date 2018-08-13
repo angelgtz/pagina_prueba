@@ -115,6 +115,7 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_3">
+<<<<<<< HEAD
       <h4>Esto sera una tabla - Editada</h4>
       <table border="1px solid" >
       	<thead>
@@ -141,6 +142,23 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_4">
+      <h4>Proximamente</h4>
+      <h2>En construccion</h2>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="alert alert-info centrar oculto" id="mensaje_2">
+      <h3>Mensaje 2</h3>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+=======
       <h4>Lo que sea</h4>
       <h2>Solo otro mensaje</h2>
     </div>
@@ -157,6 +175,7 @@
     </div>
   </div>
   <div class="col-md-4"></div>
+>>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
 </div>
 
 <script type="text/javascript">
@@ -169,7 +188,11 @@
   });
   
   $("#presioname_4").click(function(){
+<<<<<<< HEAD
     $("#mensaje_4").show();
+=======
+    $("#mensaje_3").show();
+>>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
   });
   
   $("#presioname_2").click(function(){
