@@ -89,7 +89,7 @@
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_3">
       <h4>Esto sera una tabla</h4>
-      <table summary="" >
+      <table border="1px solid" >
       	<thead>
       	<tr>
       	<th>Col 1</th>
