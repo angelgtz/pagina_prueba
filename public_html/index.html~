@@ -93,7 +93,22 @@
       </div>
     </div>
 
-    
+
+
+<!-- Sexto modulo -->
+<div class="btn-group">
+      <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Sexto Módulo
+      </button>
+      <div class="dropdown-menu">
+        <button class="dropdown-item" id="presioname_6">Presioname 4</button>
+        <a class="dropdown-item" href="#">Otra acción</a>
+        <a class="dropdown-item" href="#">Algo más</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Lo que sigue</a>
+      </div>
+    </div>
+<!-- Fin sexto modulo -->    
     <!-- Fin Botones Menú -->
   </div>
   <div class="col-md-1"></div>
@@ -115,7 +130,6 @@
   <div class="col-md-4"></div>
   <div class="col-md-4">
     <div class="alert alert-warning centrar oculto" id="mensaje_3">
-<<<<<<< HEAD
       <h4>Esto sera una tabla - Editada</h4>
       <table border="1px solid" >
       	<thead>
@@ -158,12 +172,6 @@
     </div>
   </div>
   <div class="col-md-4"></div>
-=======
-      <h4>Lo que sea</h4>
-      <h2>Solo otro mensaje</h2>
-    </div>
-  </div>
-  <div class="col-md-4"></div>
 </div>
 
 
@@ -175,8 +183,21 @@
     </div>
   </div>
   <div class="col-md-4"></div>
->>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
 </div>
+
+
+<!-- Sexto modulo -->
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div class="alert alert-info centrar oculto" id="mensaje_6">
+      <h3>Mensaje de prueba - Saludos a todos!!!!</h3>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+<!-- Sexto modulo -->
+
 
 <script type="text/javascript">
   $("#presioname_1").click(function(){
@@ -188,16 +209,20 @@
   });
   
   $("#presioname_4").click(function(){
-<<<<<<< HEAD
     $("#mensaje_4").show();
-=======
-    $("#mensaje_3").show();
->>>>>>> a12a941ffbaa0d0c8f090515cc8177fbe0734f1c
   });
   
   $("#presioname_2").click(function(){
     $("#mensaje_2").show();
   });
+  
+  
+  $("#presioname_6").click(function(){
+    $("#mensaje_6").show();
+  });
+  
+  
+  
 </script>
 
   </body>
